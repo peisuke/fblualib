@@ -89,7 +89,7 @@ if [ $current -eq 1 ]; then
     git clone --depth 1 https://github.com/facebook/folly
     git clone --depth 1 https://github.com/facebook/fbthrift
     git clone https://github.com/archenroot/thpp
-    git clone -b docker https://github.com/peisuke/fblualib
+    git clone https://github.com/peisuke/fblualib
     git clone https://github.com/facebook/wangle
 else
     git clone -b v0.35.0  --depth 1 https://github.com/facebook/folly
